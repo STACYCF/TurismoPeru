@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('imagenes/viajerrr.jpg')">
+<table width="900" border="1" align="center">
+  <tr>
+    <td colspan="3"><img src="imagenes/banner.jpg" width="900" height="300" /></td>
+  </tr>
+  <tr>
+    <td><a href="index.html" target="_self">Tours Turismo</a></td>
+    <td>Cuzco</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3"><p>También conocida como la Capital Imperial, Cusco es uno de los epicentros turísticos más concurridos de todo el Perú, pues cerca de allí se levanta la majestuosa ciudadela de Machu Picchu.</p>
+    <p>A ello se suma un abanico de atractivos espacios arqueológicos, naturales, una exquisita gastronomía y la calidez de un pueblo dispuesto a hacerte sentir como en casa.</p>
+    <p>Cusco es la parada obligatoria para llegar a la ciudadela de Machu Picchu, edificación inca que integra la lista de las 7 Nuevas Maravillas del Mundo Moderno. Se trata de un gigantesco santuario construido con grandes bloques de piedra, que reposa en la cúspide de una montaña, entre los Andes y la Amazonía. Según investigaciones, su edificación se realizó en 1435, y habría tenido como finalidad ser un centro de investigación científica, pues era frecuentado por sacerdotes, ingenieros y especialistas.</p>
+    <p>A ello se suma un abanico de atractivos espacios arqueológicos, naturales, una exquisita gastronomía y la calidez de un pueblo dispuesto a hacerte sentir como en casa.    </p>
+    <p>El culto al sol. Los antepasados incas apartaban una fecha en el calendario para rendir tributo al Dios Inti (que en español significa sol). Esta celebración, conocida como Inti Raymi, continúa vigente en la actualidad y es considerada Patrimonio Cultural de la Nación. Se celebra cada 24 de junio, día que marca el fin de la cosecha y el inicio del equinoccio invernal en los Andes del Perú.</p>
+    <table width="258" border="1" align="center">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/viajerrr.jpg',1)"><img src="imagenes/cuzcoo.jpg" width="250" height="250" id="Image2" /></a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>
